@@ -47,7 +47,7 @@ public class DibujoPolares {
             }
 
         }
-        return new Color(147, 147, 147);
+        return new Color(255, 255, 255);
     }
 
 
