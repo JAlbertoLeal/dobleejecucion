@@ -14,8 +14,12 @@ public class DibujoCartesianas {
 
 
     private static Color devuelveColor(double x, double y) {
-        if (x < 0.23) {
+        if (x > 0.3 && y> 0.5) {
             return new Color(5, 11, 198);
+        }
+
+        if (x > 0.3 && y< 0.5) {
+            return new Color(255, 0, 0);
         }
 
         if (y < 0.22 && y > 0.11) {
