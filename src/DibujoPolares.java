@@ -13,7 +13,7 @@ public class DibujoPolares {
 
 
         if (angulo <= 0.5 || angulo >= 0.5) {
-            if (radio < 0.25) {
+            if (radio < 0.35) {
                 return new Color(255, 0, 0);
             }
         }
